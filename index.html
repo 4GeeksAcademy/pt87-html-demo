@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -16,22 +22,59 @@
     </title>
   </head>
   <body>
-    <header>
-      <h1>TONIGHT ONLY!</h1>
-    </header>
-    <section>
-      <div>
-        <img src="/static/feeesh.png" alt="OUR FEARSOME FIGHTING FISH!" />
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Catwars</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-auto" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>VS</div>
-      <div>
-        <img src="/static/sombra_chair.png" alt="THE ROOMBA-RIDING MENACE!" />
-      </div>
-    </section>
-    <div>
-      See this <em>live</em> or on the streaming platforms of
-      <i class="fa-brands fa-youtube"></i> or
-      <i class="fa-brands fa-twitch"></i>!
+    </nav>
+    <div class="container">
+      <header>
+        <h1 class="text-center">TONIGHT ONLY!</h1>
+      </header>
+      <section class="container-fluid d-flex align-items-center mw-100">
+        <img
+          class="w-50"
+          src="/static/feeesh.png"
+          alt="OUR FEARSOME FIGHTING FISH!"
+        />
+        <div class="special-vs">VS</div>
+        <img
+          class="w-50"
+          src="/static/sombra_chair.png"
+          alt="THE ROOMBA-RIDING MENACE!"
+        />
+      </section>
+      <p class="text-center fs-3">
+        See this <em>live</em> or on the streaming platforms of
+        <i class="fa-brands fa-youtube"></i> or
+        <i class="fa-brands fa-twitch"></i>!
+      </p>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
