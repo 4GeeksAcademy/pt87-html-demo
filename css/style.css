@@ -7,3 +7,13 @@
   margin-left: -4.5rem;
   margin-right: -4.5rem;
 }
+
+.brand-text {
+  color: #21bdf1;
+  text-shadow: #ed27a0 0 0 2rem;
+  font-style: italic;
+}
+
+.versus-product:hover {
+  box-shadow: #ed27a0 0 0 2rem;
+}
