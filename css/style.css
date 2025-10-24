@@ -17,3 +17,27 @@
 .versus-product:hover {
   box-shadow: #ed27a0 0 0 2rem;
 }
+
+.rainbow div:nth-child(6n + 1) {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.rainbow div:nth-child(6n + 2) {
+  background-color: hsl(60, 100%, 50%);
+}
+
+.rainbow div:nth-child(6n + 3) {
+  background-color: hsl(120, 100%, 50%);
+}
+
+.rainbow div:nth-child(6n + 4) {
+  background-color: hsl(180, 100%, 50%);
+}
+
+.rainbow div:nth-child(6n + 5) {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.rainbow div:nth-child(6n + 6) {
+  background-color: hsl(300, 100%, 50%);
+}
